@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T07:59:03.828Z" agent="5.0 (Windows)" etag="vqrvUIL6MtKiIFyHyL1R" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T08:25:46.714Z" agent="5.0 (Windows)" etag="h2sSg6qdX5FETi-tvjB4" version="18.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1730" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -289,6 +289,114 @@
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-10" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l4j0BiACsp0UL-2ELMvY-82" target="l4j0BiACsp0UL-2ELMvY-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="499" />
+              <mxPoint x="965" y="500" />
+              <mxPoint x="720" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-82" value="Database" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="990" y="70" width="330" height="858" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-83" value="public:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-84" value="APDatabase(CString filename);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="52" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-85" value="APDatabase(APDatabase * _db);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="78" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-93" value="~APDatabase();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="104" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-92" value="BOOL InitSucc();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="130" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-91" value="void GetTableColNameAndType(CString sTableName,std::vector&lt;CString&gt; &amp;vectName,std::vector&lt;int&gt;&amp;vectType);    //获取表的列名和类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="156" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-90" value="void GetTableValue(CString sTableName,CString sColName, CString rowName, std::vector&lt;CString&gt; &amp;vectName);    //获取表相应列的值 lzy 2021/12/10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="182" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-89" value="INT IsTableExist(CONST CHAR *table_name);  //表是否存在。返回值：0表示不存在,1表示存在, -1表示数据库错误" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="208" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-88" value="INT Exec(CONST CHAR * cmd);        //这个执行，不返回结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="234" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-96" value="INT Exec(CONST WCHAR* cmd);      //这个执行，不返回结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="260" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-95" value="INT Exec(CONST CString &amp;sCmd);    //这个执行，不返回结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="286" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-94" value="INT Prepare(CONST CHAR * cmd);    //这个执行，返回结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="312" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-102" value="INT PrepareCmd(const CString &amp; strCmd);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="338" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-101" value="INT Step();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="364" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-100" value="VOID Finalize();        //清空上次查找的内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="390" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-99" value="INT GetCols();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="416" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-98" value="INT GetColInt(INT col);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="442" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-97" value="INT64 GetColInt64(INT col);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="468" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-109" value="DOUBLE GetColFloat(INT col);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="494" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-108" value="char * GetColText(INT col);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="520" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-107" value="CString GetColCString(INT iCol);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="546" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-106" value="CONST VOID * GetColBlob(INT col);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="572" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-105" value="INT StartCommit();                        //启动事务性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="598" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-104" value="INT AddCommint(CONST CString &amp; sCmd);    //添加事务性的内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="624" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-103" value="INT RunCommint();                        //执行事务性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="650" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-116" value="INT RollbackCommint();                    //错误回滚" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="676" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-115" value="protected:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="702" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-114" value="BOOL m_bIsCopy;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="728" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-113" value="VOID * m_db;    //数据库" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="754" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-112" value="VOID * m_stmt;    //执行后的内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="780" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-111" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="806" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-110" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
+          <mxGeometry y="832" width="330" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

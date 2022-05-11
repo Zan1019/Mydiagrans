@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T08:25:46.714Z" agent="5.0 (Windows)" etag="h2sSg6qdX5FETi-tvjB4" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T08:35:41.002Z" agent="5.0 (Windows)" etag="bgcXQFYpcUwZt6oW1I54" version="18.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2076" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1388" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -58,111 +58,111 @@
           <mxGeometry y="372" width="306" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="EditUserDlg" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry y="336" width="320" height="1088" as="geometry">
+          <mxGeometry x="-30" y="336" width="350" height="1088" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="26" width="320" height="24" as="geometry" />
+          <mxGeometry y="26" width="350" height="24" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="afx_msg void OnBnClickedBtAdd();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="50" width="320" height="26" as="geometry" />
+          <mxGeometry y="50" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-2" value="afx_msg void OnBnClickedBtEdit();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="76" width="320" height="26" as="geometry" />
+          <mxGeometry y="76" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-1" value="afx_msg void OnBnClickedBtDel();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="102" width="320" height="26" as="geometry" />
+          <mxGeometry y="102" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-9" value="afx_msg void OnBnClickedBtDel();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="128" width="320" height="26" as="geometry" />
+          <mxGeometry y="128" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-8" value="afx_msg void OnBnClickedBtConfirm();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="154" width="320" height="26" as="geometry" />
+          <mxGeometry y="154" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-7" value="afx_msg void OnBnClickedBtCancel();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="180" width="320" height="26" as="geometry" />
+          <mxGeometry y="180" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-6" value="afx_msg void OnBnClickedOk();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="206" width="320" height="26" as="geometry" />
+          <mxGeometry y="206" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-5" value="afx_msg void OnLvnItemchangedListUser(NMHDR *pNMHDR, LRESULT *pResult);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="232" width="320" height="26" as="geometry" />
+          <mxGeometry y="232" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-16" value="afx_msg void OnBnClickedCancel();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="258" width="320" height="26" as="geometry" />
+          <mxGeometry y="258" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-15" value="afx_msg void OnNMClickTreeAuthortySel(NMHDR *pNMHDR, LRESULT *pResult);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="284" width="320" height="26" as="geometry" />
+          <mxGeometry y="284" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-14" value="afx_msg void OnSize(UINT nType, int cx, int cy);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="310" width="320" height="26" as="geometry" />
+          <mxGeometry y="310" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-13" value="afx_msg void OnGetMinMaxInfo(MINMAXINFO* lpMMI);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="336" width="320" height="26" as="geometry" />
+          <mxGeometry y="336" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-12" value="void ShowEditWin(bool bShow);    //显示编辑窗口" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="362" width="320" height="26" as="geometry" />
+          <mxGeometry y="362" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-11" value="void SetUserToShow(CUser user);    //设置显示" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="388" width="320" height="26" as="geometry" />
+          <mxGeometry y="388" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-22" value="int GetUserFromSet(CUser &amp;user);            //获取用户" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="414" width="320" height="26" as="geometry" />
+          <mxGeometry y="414" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-21" value="void ClearToShow();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="440" width="320" height="26" as="geometry" />
+          <mxGeometry y="440" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-20" value="void InitUserShow();    //初始化用户列表显示" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="466" width="320" height="26" as="geometry" />
+          <mxGeometry y="466" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-19" value="void InitAllAuthority();    //显示所有权限" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="492" width="320" height="26" as="geometry" />
+          <mxGeometry y="492" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-18" value="void CheckToTree(HTREEITEM hItem , BOOL bCheck);    //当前节点被选择后会对整个树状图做出的反应" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="518" width="320" height="26" as="geometry" />
+          <mxGeometry y="518" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-17" value="void SetChildCheck(HTREEITEM hItem, BOOL bCheck);    //当父节点被选中后子节点的反应" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="544" width="320" height="26" as="geometry" />
+          <mxGeometry y="544" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-27" value="void SetParentCheck(HTREEITEM hItem, BOOL bCheck);    //当子节点被选中后父节点的反应" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="570" width="320" height="26" as="geometry" />
+          <mxGeometry y="570" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-26" value="void ChangeParent(HTREEITEM hItem);                    //设置子节点如果被选中则展开父节点" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="596" width="320" height="26" as="geometry" />
+          <mxGeometry y="596" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-25" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="622" width="320" height="26" as="geometry" />
+          <mxGeometry y="622" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-24" value="CListCtrlEx  m_listCtrlUser;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="648" width="320" height="26" as="geometry" />
+          <mxGeometry y="648" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-23" value="CComboBox m_cmbAuthorty;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="674" width="320" height="26" as="geometry" />
+          <mxGeometry y="674" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-37" value="EditType m_iEditType ;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="700" width="320" height="26" as="geometry" />
+          <mxGeometry y="700" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-38" value="CUser m_oldUser;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="726" width="320" height="26" as="geometry" />
+          <mxGeometry y="726" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-39" value="CTreeCtrl m_TreeCtrlAuthority;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="752" width="320" height="26" as="geometry" />
+          <mxGeometry y="752" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-40" value="CTreeCtrl m_TreeCtrlAuthoritySel;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="778" width="320" height="32" as="geometry" />
+          <mxGeometry y="778" width="350" height="32" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-43" value="std::vector&lt;HTREEITEM&gt; TreeNode;    //按传入顺序存储不可设置权限列表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="810" width="320" height="32" as="geometry" />
+          <mxGeometry y="810" width="350" height="32" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-42" value="std::map&lt;CString,std::map&lt;CString,HTREEITEM&gt;&gt;FuncPageName;//权限名称和节点句柄的Map映射表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="842" width="320" height="32" as="geometry" />
+          <mxGeometry y="842" width="350" height="32" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-41" value="std::vector&lt;HTREEITEM&gt; TreeNodeSel;//按传入顺序存储可设置权限列表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="874" width="320" height="32" as="geometry" />
+          <mxGeometry y="874" width="350" height="32" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-44" value="UINT IsExpansion;//表示软件展开的状态，0表示初始化，1表示未展开，2表示展开，3表示需要收缩" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="906" width="320" height="32" as="geometry" />
+          <mxGeometry y="906" width="350" height="32" as="geometry" />
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--17" target="l4j0BiACsp0UL-2ELMvY-9">
           <mxGeometry relative="1" as="geometry" />
@@ -397,6 +397,27 @@
         </mxCell>
         <mxCell id="l4j0BiACsp0UL-2ELMvY-110" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-82">
           <mxGeometry y="832" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l4j0BiACsp0UL-2ELMvY-118" target="l4j0BiACsp0UL-2ELMvY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-118" value="IFunctionCtrl" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-340" y="618" width="190" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-119" value="enum FunctionType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-118">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-120" value="public:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-118">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-121" value="virtual void AddWndToCtrl(FunctionType type,CWnd* pParentWnd, int iWndID) = 0;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-118">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-123" value="virtual void EnableFunc(FunctionType type,bool bEnable) = 0;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-118">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l4j0BiACsp0UL-2ELMvY-122" value="virtual void VisibleFunc(FunctionType type,bool bVisible) = 0;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="l4j0BiACsp0UL-2ELMvY-118">
+          <mxGeometry y="130" width="190" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
